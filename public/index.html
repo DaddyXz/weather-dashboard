@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+        <form id="search-form">
+            <input type="text" id="city-input" placeholder="Enter city name" required>
+            <button type="submit">Get Weather</button>
+        </form>
+    </header>
+    <main>
+        <section id="weather-info">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="humidity"></p>
+            <p id="wind-speed"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Weather Dashboard</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
