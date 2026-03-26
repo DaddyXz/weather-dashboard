@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f7ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Weather Cards */
+.weather-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h2 {
+    font-size: 24px;
+}
+
+.weather-card p {
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="search"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+input[type="text"]:focus,
+input[type="search"]:focus {
+    border-color: #007bff;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
